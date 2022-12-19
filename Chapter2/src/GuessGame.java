@@ -1,7 +1,7 @@
 public class GuessGame {
-    player p1;
-    player p2;
-    player p3;
+    Player p1;
+    Player p2;
+    Player p3;
 
     public void startGame() {
         p1 = new Player();
