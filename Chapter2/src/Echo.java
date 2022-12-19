@@ -1,6 +1,6 @@
 public class Echo {
     int count = 0;
-    void echo() {
+    void hello() {
         System.out.println("helloooo... ");
     }
 }
