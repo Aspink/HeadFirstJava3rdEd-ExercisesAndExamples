@@ -7,9 +7,11 @@ public class Episode {
         System.out.println("Playing serie " + seriesNumber);
     }
     void skipIntro() {
+
         System.out.println("Skipping intro...");
     }
     void skipToNext() {
+
         System.out.println("Loading next episode...");
     }
 }
