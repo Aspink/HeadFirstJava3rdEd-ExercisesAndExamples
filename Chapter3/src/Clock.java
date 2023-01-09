@@ -3,7 +3,7 @@ public class Clock {
     void setTime(String t) {
         time = t;
     }
-    void getTime() {
+    String getTime() {
         return time;
     }
 }
