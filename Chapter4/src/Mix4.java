@@ -5,7 +5,7 @@ public class Mix4 {
         int count = 0;
         Mix4[] mixes = new Mix4[20];
         int i = 0;
-        while(i < 9) {
+        while(i < 20) {
             mixes[i] = new Mix4();
             mixes[i].counter = mixes[i].counter + 1;
             count = count + 1;
