@@ -9,7 +9,7 @@ public class SimpleStartupTestDrive {
         String result = dot.checkYourself(userGuess);
 
         String testResult = "failed";
-        if(result.equals("hit")) {
+        if (result.equals("hit")) {
             testResult = "passed";
         }
 
