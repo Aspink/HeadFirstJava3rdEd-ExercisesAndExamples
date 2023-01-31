@@ -10,6 +10,15 @@ public class SimpleStartupGame {
         theStartup.setLocationCells(locations);
         boolean isAlive = true;
 
+        while (isAlive) {
+            int guess = helper.getUserInput("enter a number");
+            String result = theStartup.checkYourself(guess);
+            numOfGuesses++;
+            if (result.equals("kill")) {
+                isAlive = false;
+                System.out.println("You took " + numOfGuesses + " guesses");
+            }
+        }
 
     }
 }
