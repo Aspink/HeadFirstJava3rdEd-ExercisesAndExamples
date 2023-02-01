@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class GameHelper {
+public class GameHelper {
+    public int getUserInput(String enterANumber) {
+    }
 }
