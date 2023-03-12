@@ -14,8 +14,7 @@ public class SimpleStartup {
                 break;
             }
         }
-        if (numOfHits ==
-                locationCells.length) {
+        if (numOfHits == locationCells.length) {
             result = "kill";
         }
         System.out.println(result);
