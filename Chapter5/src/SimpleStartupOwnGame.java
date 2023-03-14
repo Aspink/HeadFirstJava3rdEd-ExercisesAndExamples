@@ -7,6 +7,10 @@ public class SimpleStartupOwnGame {
         int[] cellSet = new int[]{startCell, startCell + 1, startCell + 2};
         SimpleStartup startup = new SimpleStartup();
         startup.setLocationCells(cellSet);
+        String status
+        while(!status.equals("kill")) {
+
+        }
 
     }
 
