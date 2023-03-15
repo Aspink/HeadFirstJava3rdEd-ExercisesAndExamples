@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Output {
+public class Output {
+    public static void main(String[] args) {
+        Output output = new Output();
+    }
 }
