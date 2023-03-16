@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 public class SimpleStartup {
-    private int[] locationCells;
+    private ArrayList<String> locationCells;
     private int numOfHits = 0;
-    public void setLocationCells(int[] locs) {
+    public void setLocationCells(ArrayList<String> locs) {
 
         locationCells = locs;
     }
