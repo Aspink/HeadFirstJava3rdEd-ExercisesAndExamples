@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class SimpleStartup {
     private ArrayList<String> locationCells;
-    private int numOfHits = 0;
+//    private int numOfHits = 0;
     public void setLocationCells(ArrayList<String> locs) {
 
         locationCells = locs;
     }
 
-    public String checkYourself(int guess) {
+    public String checkYourself(String userInput) {
         String result = "miss";
         for (int cell : locationCells) {
             if (guess == cell) {
