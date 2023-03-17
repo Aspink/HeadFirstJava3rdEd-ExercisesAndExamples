@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class SimpleStartup {
+public class Startup {
     private ArrayList<String> locationCells;
 //    private int numOfHits = 0;
     public void setLocationCells(ArrayList<String> locs) {
