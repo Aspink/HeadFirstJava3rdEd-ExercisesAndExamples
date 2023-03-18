@@ -10,8 +10,25 @@ public class StartupBust {
         game.setUpGame();
         game.startPlaying();
     }
-    void setUpGame()  {
+    private void setUpGame()  {
+        Startup one = new Startup();
+        one.setName("Poniez");
+        Startup two = new Startup();
+        two.setName("Hacqi");
+        Startup three = new Startup();
+        three.setName("Cabista");
+        startups.add(one);
+        startups.add(two);
+        startups.add(three);
 
+        System.out.println("Your goal is to sink three Startups:");
+        System.out.println("Poniez, Hacqi & Cabista.");
+        System.out.println("Try to sink them all in the fewest number of guesses!");
+
+        for(Startup startup : startups) {
+            ArrayList<String> newLocation = helper.placeStartup(3);
+            startup.setLocationCells(newLocation);
+        }
     }
     void startPlaying() {
 
