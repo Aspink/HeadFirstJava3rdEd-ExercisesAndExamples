@@ -8,4 +8,10 @@ public class StartupBust {
     void startPlaying() {
 
     }
+    void checkUserGuess(String userGuess) {
+
+    }
+    void finishGame() {
+
+    }
 }
