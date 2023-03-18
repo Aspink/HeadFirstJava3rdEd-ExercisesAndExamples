@@ -6,7 +6,9 @@ public class StartupBust {
     private ArrayList<Startup> startups = new ArrayList<Startup>();
     private int numOfGuesses = 0;
     public static void main(String[] args) {
-
+        StartupBust game = new StartupBust();
+        game.setUpGame();
+        game.startPlaying();
     }
     void setUpGame()  {
 
