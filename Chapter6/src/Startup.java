@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Startup {
-    private String name;
     private ArrayList<String> locationCells;
-//    private int numOfHits = 0;
+    private String name;
+    //    private int numOfHits = 0;
     public void setLocationCells(ArrayList<String> locs) {
         locationCells = locs;
     }
