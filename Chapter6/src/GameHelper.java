@@ -51,5 +51,13 @@ public class GameHelper {
         }
     } //end startupFits
 
-
+    private boolean coordsAvailable(int[] startupCoords) {
+        for (int coord : startupCoords) {                   // check all potential positions
+            if (grid[coord] != 0) {                         // this position already taken
+                // system.out.println ("position: " + coord + " already taken.");
+                return false;                               // NO success
+            }
+        }
+        return true;                                        // there were no clashes, yay
+    }           //end coordsAvailable
 }
