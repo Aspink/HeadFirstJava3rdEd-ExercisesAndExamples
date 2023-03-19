@@ -7,6 +7,9 @@ public class Startup {
     public void setLocationCells(ArrayList<String> locs) {
         locationCells = locs;
     }
+    public void setName(String n) {
+        name = n;
+    }
 
     public String checkYourself(String userInput) {
         String result = "miss";
