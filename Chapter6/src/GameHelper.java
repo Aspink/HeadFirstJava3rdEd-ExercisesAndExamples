@@ -64,4 +64,13 @@ public class GameHelper {
             grid[index] = 1;                                // mark grid position as ‘used'
         }
     }      //end savePositionToGrid
+    private ArrayList<String> convertCoordsToAlphaFormat(int[] startupCoords) {
+        ArrayList<String> alphaCells = new ArrayList<String>();
+        for (int index : startupCoords) {                           // for each grid coordinate
+            String alphaCoords = getAlphaCoordsFromIndex(index);    // turn it into an "a0" style
+            alphaCells.add(alphaCoords) ;                           // add to a list
+        }
+        return alphaCells;                                          // return the "a0"-style coords
+
+    }       // end convertCoordsToAlphaFormat
 }
