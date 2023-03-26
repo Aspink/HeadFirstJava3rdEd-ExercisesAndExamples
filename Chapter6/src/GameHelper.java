@@ -73,4 +73,11 @@ public class GameHelper {
         return alphaCells;                                          // return the "a0"-style coords
 
     }       // end convertCoordsToAlphaFormat
+
+    private String getAlphaCoordsFromIndex (int index) {
+        int row = calcRowFromIndex (index) ;                        // get row value
+        int column = index % GRID_LENGTH;                           // get numeric column value
+        String letter = ALPHABET.substring(column, column + 1);     // convert to letter
+        return letter + row;
+    } //            end getAlphaCoordsFromIndex
 }
