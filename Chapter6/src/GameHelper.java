@@ -80,4 +80,8 @@ public class GameHelper {
         String letter = ALPHABET.substring(column, column + 1);     // convert to letter
         return letter + row;
     } //            end getAlphaCoordsFromIndex
+
+    private int calcRowFromIndex(int index) {
+        return index / GRID_LENGTH;
+    } //            end calcRowFromIndex
 }
