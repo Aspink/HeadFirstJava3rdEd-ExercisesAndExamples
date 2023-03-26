@@ -84,4 +84,12 @@ public class GameHelper {
     private int calcRowFromIndex(int index) {
         return index / GRID_LENGTH;
     } //            end calcRowFromIndex
-}
+
+    private int getIncrement() {
+        if (startupCount % 2 == 0) {                                // if EVEN Startup
+            return HORIZONTAL_INCREMENT;                            // place horizontally
+        } else {                                                    // else ODD
+            return VERTICAL_INCREMENT;                              // place vertically
+        }
+    } //            end getIncrement
+} //                end class
