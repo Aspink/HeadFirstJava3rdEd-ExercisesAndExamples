@@ -12,6 +12,10 @@ public class ArrayListMagnet {
             a.add("four");
         }
         printList(a);
+        if(a.indexOf("four") != 4) {
+            a.add("4.2");
+        }
+        printList(a);
     }
 
     public static void printList(ArrayList<String> list) {
