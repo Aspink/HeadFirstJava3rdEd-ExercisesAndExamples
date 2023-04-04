@@ -8,4 +8,8 @@ public class ArrayListMagnet {
         a.add(3, "three");
         printList(a);
     }
+
+    public static void printList(ArrayList<String> list) {
+
+    }
 }
