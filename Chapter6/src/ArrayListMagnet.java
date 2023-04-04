@@ -10,6 +10,9 @@ public class ArrayListMagnet {
     }
 
     public static void printList(ArrayList<String> list) {
-
+        for(String element : list) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
     }
 }
