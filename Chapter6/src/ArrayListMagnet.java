@@ -16,6 +16,10 @@ public class ArrayListMagnet {
             a.add("4.2");
         }
         printList(a);
+        if(a.contains("two")) {
+            a.add("2.2");
+        }
+        printList(a);
     }
 
     public static void printList(ArrayList<String> list) {
