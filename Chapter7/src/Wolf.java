@@ -1,4 +1,4 @@
-public class Wolf extends Feline {
+public class Wolf extends Canine {
     public void makeNoise() {
 
     }
