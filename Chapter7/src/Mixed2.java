@@ -4,8 +4,8 @@ public class Mixed2 {
         B b = new B();
         C c = new C();
         A a2 = new C();
-        c.m1();
-        c.m2();
-        c.m3();
+        a2.m1();
+        a2.m2();
+        a2.m3();
     }
 }
