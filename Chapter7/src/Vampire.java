@@ -1,5 +1,5 @@
 public class Vampire extends Monster {
-    boolean scare(int x) {
+    boolean frighten(byte b) {
         System.out.println("a bite?");
         return true;
     }
