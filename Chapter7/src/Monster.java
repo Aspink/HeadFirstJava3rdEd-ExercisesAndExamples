@@ -1,6 +1,6 @@
 public class Monster {
-    boolean frighten(int x) {
+    boolean frighten(int z) {
         System.out.println("arrrgh");
-        return false;
+        return true;
     }
 }
