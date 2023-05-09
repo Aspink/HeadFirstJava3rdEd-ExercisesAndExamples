@@ -1,4 +1,4 @@
-public class Cat extends Feline {
+public class Cat extends Feline implements Pet {
     public void makeNoise() {
 
     }
