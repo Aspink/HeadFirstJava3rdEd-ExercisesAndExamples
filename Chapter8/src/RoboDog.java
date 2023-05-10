@@ -1,2 +1,2 @@
-public class RoboDog {
+public class RoboDog extends Robot{
 }
