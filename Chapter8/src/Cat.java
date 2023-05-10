@@ -5,7 +5,7 @@ public class Cat extends Feline implements Pet {
     public void play() {
 
     }
-    public void makeNoise() {
+    public void roam() {
 
     }
     public void eat() {
