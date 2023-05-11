@@ -4,4 +4,7 @@ public class BuzzwordsReport extends Report {
         buzzwordCompliance();
         printReport();
     }
+    void buzzwordCompliance() {
+
+    }
 }
